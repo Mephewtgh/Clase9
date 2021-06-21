@@ -1,0 +1,161 @@
+
+body{
+    @font-face {
+        font-family: "roboto";
+        src: url(https://www.fontsquirrel.com/fonts/roboto);
+        
+        
+    }
+    
+}
+.TituloHeader{
+    position: absolute;
+    top:4px;
+    left: 0px;
+    text-indent: 90px;
+    
+}
+.LineaSuperior {
+    position: absolute;
+    background-color: #222222;
+    width: 100%;
+    top:0px;
+    left:0px;
+    height: 20px;
+    font-size: 12px ;
+    color: #F3F3F3;
+
+}
+.TituloHeader2{
+position: absolute;
+left: calc(50% - 26px/2 + 439px);
+margin-top: 4px;
+
+} /*Este es el desplegable  de idiomas */
+
+.TituloHeader3{
+    position: absolute;
+    left: calc(50% - 26px/2 + 490px);
+    margin-top: 4px;
+}/*Este es el desplegable  de en que moneda esta la pagina*/ /*Faltan los vectores de flechita*/
+
+.SegundaLineaSuperior{
+    position: absolute;
+    background-color: #F0A83E;
+    width: 100%;
+    top: 20px;
+    left: 0px;
+    height: 62px;
+}
+.FotoGato{
+    position: absolute;
+left: 40.74px;
+top: 25px;
+
+}
+.ColorearNegro{
+    color: #3C2313;
+    
+}
+.TituloSuperior{
+    position: absolute;
+    font-size: 20px;
+    top: 20px;
+    left: 58px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.FotoPerro{
+    position: absolute;
+left: 188px;
+top: 25px;
+}
+
+
+.Pata {
+    position: absolute;
+    top: 27.5px;
+    left:  801px;
+    
+}
+.Pata1 {
+    position: absolute;
+    top: 27.5px;
+    left: 901px;
+}
+.Pata2 {
+    position: absolute;
+    top: 27.5px;
+    left: 964px;
+}
+.Pata3 {
+    position: absolute;
+    top: 27.5px;
+    left: 1054px;
+}
+
+.PalabraPata{
+    position: absolute;
+    top: 25px;
+    margin-left: 817px;
+    
+    
+}
+.PalabraPata1{
+    position: absolute;
+    top: 25px;
+    margin-left: 917px;
+}
+.PalabraPata2{
+    position: absolute;
+    top: 25px;
+    left: 980px;
+}
+.PalabraPata3{
+    position: absolute;
+    top: 25px;
+    left: 1070px;
+}
+
+.PrimeraParteMain{
+    position: absolute;
+    left: 0px;
+    top: 81px;
+    width: 100%;
+    /*z-index: -1;    */
+}
+.TextoMain1{
+    position: absolute;
+width: 345px;
+height: 35px;
+left: 658px;
+top: 150px;
+font-size: 30px;
+line-height: 35px;
+background-color: white;
+
+text-align: center;
+
+}
+.TextoMain2 {
+position: absolute;
+width: 190px;
+height: 19px;
+left: 740px;
+top: 207px;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+}
+.TextoMain3 {
+position: absolute;
+left: 760px;
+top: 250px;
+border-radius: 5px;
+background-color: #F0A83E;
+color: white;
+text-align: center;
+font-size: 16px;
+line-height: 19px;
+}
